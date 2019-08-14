@@ -75,7 +75,7 @@ def contrastive(model, X: pd.DataFrame, num_examples = 1):
                     min_distance = distance
                     closest_example = random_example
         if closest_example is None:
-            print('😡'*100)
+            print('😡'*10)
             continue
 
         print(min_distance)
