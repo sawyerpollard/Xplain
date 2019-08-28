@@ -106,3 +106,7 @@ venv.bak/
 # Custom
 .DS_Store
 .vscode/
+experiments/
+bin/
+pip-selfcheck.json
+include/
