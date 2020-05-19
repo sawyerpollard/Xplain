@@ -1,1 +1,3 @@
-# IBM2019
+# Xplain
+
+Xplain generates contrastive explanations, which show how much certain input data would need to be varied to affect the system's output. An AI might first diagnose a patient with the flu, and then Xplain could output that "if body temperature was 2.4° F lower, the patient would NOT be diagnosed with the flu." Xplain ultimately generates "contrast vectors" that can be used to construct statements like the one above. Xplain utilizes Monte Carlo simulation (a method of random sampling), multidimensional Euclidean distance equations, and data standardization, among other algorithms, to create contrast vectors. Xplain allows users of AI to understand how close a classifier was to making a different decision, as well as what steps can be taken to shift the outcome of a prediction.
